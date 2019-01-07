@@ -1,6 +1,5 @@
-let hello = (nome: string) => {
-    
-    console.log(`Olá ${nome}`);
+let hello = (nome: string, sobrenome: string) => {
+    console.log(`Olá ${nome} ${sobrenome}`);
 }
 
-hello('Patrick');
+hello('Patrick', 'Vieira');
